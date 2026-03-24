@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <!-- General -->
+  <data name="Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="No" xml:space="preserve"><value>No</value></data>
+  <data name="Import" xml:space="preserve"><value>Import</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Error" xml:space="preserve"><value>Error</value></data>
+  <data name="ErrorOccurred" xml:space="preserve"><value>An error occurred. See the command window for details.</value></data>
+
+  <!-- Terrain model -->
+  <data name="TerrainModel_SelectPoints" xml:space="preserve"><value>Select survey points</value></data>
+  <data name="TerrainModel_SelectSegments" xml:space="preserve"><value>Select break lines / ridge lines (optional, press Enter to skip)</value></data>
+  <data name="TerrainModel_PromptConsiderTriangleArea" xml:space="preserve"><value>Consider triangle area for normal vectors?</value></data>
+  <data name="TerrainModel_PromptShowTriangles" xml:space="preserve"><value>Show triangulation lines?</value></data>
+  <data name="TerrainModel_NotEnoughPoints" xml:space="preserve"><value>At least 3 points are needed to build the terrain model.</value></data>
+  <data name="TerrainModel_TriangulationFailed" xml:space="preserve"><value>Triangulation failed. Check that points are not collinear.</value></data>
+  <data name="TerrainModel_CreatedSuccessfully" xml:space="preserve"><value>Terrain model created: {0} points, {1} triangles.</value></data>
+  <data name="TerrainModel_Deleted" xml:space="preserve"><value>Terrain model deleted.</value></data>
+
+  <!-- Points -->
+  <data name="Points_ImportedCount" xml:space="preserve"><value>{0} points imported successfully.</value></data>
+
+  <!-- Profile -->
+  <data name="Profile_SelectCentreline" xml:space="preserve"><value>Select pipe route polyline</value></data>
+  <data name="Profile_SelectPolylineOnly" xml:space="preserve"><value>Please select a polyline.</value></data>
+  <data name="Profile_SelectManholes" xml:space="preserve"><value>Select manhole positions (press Enter to skip)</value></data>
+  <data name="Profile_SelectInsertionPoint" xml:space="preserve"><value>Pick insertion point for the profile drawing</value></data>
+  <data name="Profile_GenerationFailed" xml:space="preserve"><value>Profile generation failed. Check the terrain model and polyline.</value></data>
+  <data name="Profile_DrawnSuccessfully" xml:space="preserve"><value>Longitudinal profile drawn successfully.</value></data>
+</root>
