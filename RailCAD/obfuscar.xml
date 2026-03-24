@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Obfuscator>
+	<!-- Tokens {InPath}, {OutPath}, {AssemblyFile} will be replace during build -->
+	<Var name="InPath" value="{InPath}" />
+	<Var name="OutPath" value="{OutPath}" />
+
+	<Var name="KeepPublicApi" value="true" />
+	<Var name="HidePrivateApi" value="true" />
+	<Var name="RenameProperties" value="false" />
+	<Var name="RenameEvents" value="false" />
+	<Var name="RenameFields" value="true" />
+	<Var name="UseUnicodeNames" value="true" />
+	<Var name="HideStrings" value="true" />
+	<Var name="OptimizeMethods" value="true" />
+	<Var name="SuppressIldasm" value="true" />
+	
+	<SkipType name="*Dialog" />
+	<SkipType name="*ViewModel" />
+
+	<AssemblySearchPath path="..\references\autocad\" />
+	<AssemblySearchPath path="..\references\bricscad\" />
+	<AssemblySearchPath path="..\references\gstarcad\" />
+	<AssemblySearchPath path="..\references\zwcad\" />
+
+	<Var name="IgnoreMissingAssemblies" value="true" />
+	<Var name="IgnoreSymbolLoadErrors" value="true" />
+
+	<Module file="$(InPath)\{AssemblyFile}" />
+</Obfuscator>

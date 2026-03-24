@@ -1,0 +1,10 @@
+/.vs
+/RailCAD/.vs
+/RailCAD/bin
+/RailCAD/obj
+/packages
+/references
+/RailCAD.Tests/bin
+/RailCAD.Tests/obj
+/RailCAD.Tests/packages
+/RailCAD.Tests/.vs
